@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "coolApp"
+    }
+  },
+  "defaultProject": "coolApp",
+  "cli": {
+    "analytics": "ba708113-1487-4ee0-9635-9364594e033b"
+  }
 }
