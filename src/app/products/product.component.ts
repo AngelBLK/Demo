@@ -2,10 +2,10 @@ import {Component, Input} from '@angular/core';
 @Component({
     selector:'app-product',
     template: `
-    <h2>
+    <h3>
     Name: 
     <a [routerLink]= "['/product', product.id]">{{product.name}}</a>
-    </h2>`
+    </h3>`
 
 })
 

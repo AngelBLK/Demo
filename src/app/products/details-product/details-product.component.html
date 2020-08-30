@@ -1,11 +1,18 @@
 <div>
-    <h1>Details</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="navbar-brand" href="#">Detalles</h1>
+        </nav>
+    </div>
     <hr />
     <div class="card mt-3 p-3" >
-        <h2>{{product.name}}</h2>
-        <div>Category:{{product.category}}</div>
-        <div>Description:{{product.description}}</div>
-        <div>Price:{{product.price}}</div>
+        <div class="card-body">
+            <h2 class="title">{{product.name}}</h2>
+            <img src="{{product.picture}}" class="card-img-top" alt="Mucho texto">
+            <div class="card-text">Category: {{product.category}}</div>
+            <div class="card-text">Description: {{product.description}}</div>
+            <div>Price: ${{product.price}}</div>
+        </div>
     </div>
     <button class="btn btn-primary mt-3"(click)="onGoBack()">Go Back</button>
 </div>

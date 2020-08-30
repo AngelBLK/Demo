@@ -11,28 +11,32 @@ export class DataService {
       name: 'Egg',
       category: 'food',
       description: 'Lorem egg',
-      price: 1
+      price: 1,
+      picture: ""
     },
     {
       id:2,
       name: 'Coca Cola',
       category: 'Drink',
       description: 'Lorem Drink',
-      price: 1.50
+      price: 1.50,
+      picture: ""
     },
     {
       id:3,
       name: 'DevelopKush',
       category: 'Weed',
       description: 'Lorem Weed',
-      price: 2
+      price: 2,
+      picture: ""
     },
     {
       id:4,
-      name: 'DBiscoff Cookies',
+      name: 'Biscoff Cookies',
       category: 'Food',
       description: 'Lorem Coockies',
-      price: 2 
+      price: 2, 
+      picture: ""
     }
   ];
 

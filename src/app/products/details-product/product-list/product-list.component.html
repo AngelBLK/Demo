@@ -1,10 +1,15 @@
 <div>
-    <h1>Listado de productos</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="navbar-brand" href="#">Listado de productos</h1>
+        </nav>
+    </div>
     <hr />
     <div class="card mt-3 p-3" *ngFor="let product of products">
-        <app-product [product]="product"></app-product>
-        
-        <div>Price: {{product.price}}</div>
-        
+        <div class="card-body">
+            <img src="{{product.picture}}" class="rounded float" alt="Mucho texto">
+            <app-product [product]="product"></app-product>
+            <div>Price: ${{product.price}}</div>
+        </div>
     </div>
 </div>
