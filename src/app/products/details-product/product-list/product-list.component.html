@@ -5,7 +5,7 @@
         </nav>
     </div>
     <hr />
-    <div class="card mt-3 p-3" *ngFor="let product of products">
+    <div class="card mt-3 p-3 mb-5" *ngFor="let product of products">
         <div class="card-body">
             <img src="{{product.picture}}" class="rounded float" alt="Mucho texto">
             <app-product [product]="product"></app-product>
