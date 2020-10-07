@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import{ActivatedRoute} from '@angular/router'
 import {DataService} from "../../shared/data.service";
-import {Location} from '@angular/common'
+import {Location} from '@angular/common';
+
 @Component({
   selector: 'app-details-product',
   templateUrl: './details-product.component.html',
@@ -22,5 +23,7 @@ export class DetailsProductComponent implements OnInit {
   onGoBack(){
     this.location.back();
   }
+
+  
 
 }

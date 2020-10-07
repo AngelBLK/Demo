@@ -4,12 +4,14 @@ import { HomeComponent } from './home/home.component';
 import {ProductListComponent} from './products/details-product/product-list/product-list.component';
 import { DetailsProductComponent } from './products/details-product/details-product.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-
+import {BuyFormComponent} from './buy-form/buy-form.component';
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:'products', component: ProductListComponent},
   {path:'product/:id', component:DetailsProductComponent},
+  {path: 'buy-form', component:BuyFormComponent},
   {path:'**', component:NotFoundComponent }
+  
 ];
 
 @NgModule({

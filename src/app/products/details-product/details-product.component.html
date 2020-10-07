@@ -12,6 +12,8 @@
             <div class="card-text">Category: {{product.category}}</div>
             <div class="card-text">Description: {{product.description}}</div>
             <div>Price: ${{product.price}}</div>
+            <button class="btn btn-primary mt-3" [routerLink]="['/buy-form']" > Buy</button>
+            
         </div>
     </div>
     <button class="btn btn-primary mt-3"(click)="onGoBack()">Go Back</button>
